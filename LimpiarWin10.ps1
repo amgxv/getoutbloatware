@@ -1,7 +1,7 @@
 # 3D Builder
-get-appxpackage Microsoft.Office.3DBuilder | remove-appxpackage
+get-appxpackage Microsoft.3DBuilder | remove-appxpackage
 # 3D Viewer
-get-appxpackage Microsoft.Office.Microsoft3DViewer | remove-appxpackage
+get-appxpackage Microsoft.Microsoft3DViewer | remove-appxpackage
 # Alarms & Clocks: 
 get-appxpackage Microsoft.WindowsAlarms | remove-appxpackage
 # Calculator: 
@@ -15,23 +15,23 @@ get-appxpackage Microsoft.windowscommunicationsapps | remove-appxpackage
 # Maps: 
 get-appxpackage Microsoft.WindowsMaps | remove-appxpackage
 # Messaging :
-get-appxpackage Microsoft.Office.Messaging | remove-appxpackage
+get-appxpackage Microsoft.Messaging | remove-appxpackage
 # Movies & Tv: 
 get-appxpackage Microsoft.ZuneVideo | remove-appxpackage
 # OneNote: 
 get-appxpackage Microsoft.Office.OneNote | remove-appxpackage
 # Paint3D:
-get-appxpackage Microsoft.Office.MSPaint | remove-appxpackage
+get-appxpackage Microsoft.MSPaint | remove-appxpackage
 # People: 
 get-appxpackage Microsoft.People | remove-appxpackage
 # Print3D:
-get-appxpackage Microsoft.Office.MSPrint | remove-appxpackage
+get-appxpackage Microsoft.MSPrint | remove-appxpackage
 # Photos: 
 get-appxpackage Microsoft.Windows.Photos | remove-appxpackage
 # Solitaire Collection
-get-appxpackage Microsoft.Office.MicrosoftSolitaireCollection | remove-appxpackage
+get-appxpackage Microsoft.MicrosoftSolitaireCollection | remove-appxpackage
 # Skype (Win10)
-get-appxpackage Microsoft.Office.SkypeApp | remove-appxpackage
+get-appxpackage Microsoft.SkypeApp | remove-appxpackage
 # Voice Recorder: 
 get-appxpackage Microsoft.WindowsSoundRecorder | remove-appxpackage
 # Xbox: 
