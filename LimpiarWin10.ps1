@@ -2,6 +2,8 @@
 get-appxpackage Microsoft.3DBuilder | remove-appxpackage
 # 3D Viewer
 get-appxpackage Microsoft.Microsoft3DViewer | remove-appxpackage
+# Autodesk Sketchbook
+get-appxpackage 89006A2E.AutodeskSketchBook | remove-appxpackage
 # Alarms & Clocks: 
 get-appxpackage Microsoft.WindowsAlarms | remove-appxpackage
 # Calculator: 
@@ -18,6 +20,8 @@ get-appxpackage Microsoft.WindowsMaps | remove-appxpackage
 get-appxpackage Microsoft.Messaging | remove-appxpackage
 # Movies & Tv: 
 get-appxpackage Microsoft.ZuneVideo | remove-appxpackage
+# News:
+get-appxpackage Microsoft.BingNews | remove-appxpackage
 # OneNote: 
 get-appxpackage Microsoft.Office.OneNote | remove-appxpackage
 # Paint3D:
@@ -30,6 +34,8 @@ get-appxpackage Microsoft.MSPrint | remove-appxpackage
 get-appxpackage Microsoft.Windows.Photos | remove-appxpackage
 # Solitaire Collection
 get-appxpackage Microsoft.MicrosoftSolitaireCollection | remove-appxpackage
+# Spotify
+get-appxpackage SpotifyAB.SpotifyMusic | remove-appxpackage
 # Skype (Win10)
 get-appxpackage Microsoft.SkypeApp | remove-appxpackage
 # Voice Recorder: 
